@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: 'Testfont';
-    /* background-color: #000000; */
+     background-color: rgb(255, 255, 255); 
     margin: 0;
 
     padding: 0px;
