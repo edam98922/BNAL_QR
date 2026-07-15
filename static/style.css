@@ -16,7 +16,7 @@ body {
     /* background-color: #000000; */
     margin: 0;
 
-    padding: 20px;
+    padding: 0px;
 
     min-height: 100vh;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ body::before {
     border: 3px solid gray;
 
     /*설명글(하얀부분) 이미지*/
-    background-image: url('');
+    background-image: url('nameQR.png');
 
     background-size: 100% 100%;
     background-position: center;
