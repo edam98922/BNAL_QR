@@ -7,9 +7,9 @@
     },
     "2": {
         "title": "두 번째 작품",
-        "explanation": "이것은 두 번째 작품의 설명입니다. ",
+        "explanation": "",
         "audio_file": "coffee.mp3",
-        "image_file": "images.jpg"
+        "image_file": ""
     },
     "3": {
         "title": "세 번째 작품",
