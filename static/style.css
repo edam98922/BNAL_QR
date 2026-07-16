@@ -7,7 +7,7 @@
 }
 
 html {
-    background-color: #000000;
+    background-color: rgba(135, 38, 66, 1.00);
 
 }
 
@@ -23,6 +23,8 @@ body {
 
     display: flex;
     flex-direction: column;
+
+    padding-bottom: 80px;
 
 }
 
@@ -43,20 +45,20 @@ body::before {
     z-index: -1;
 }
 
-.sound {
+/* .sound {
     position: fixed;
     z-index: 1000;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    /* max-width: 540px; */
+     max-width: 540px; 
     display: block;
 
     background: black;
     padding: 3px;
     border-radius: 30px;
-}
+} */
 
 .art-image {
     display: block;
@@ -64,24 +66,48 @@ body::before {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: #ffffff;
+    border-top: 1px solid #333333;
+
+    /* 안쪽 여백 */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-bar .sound {
+    flex-grow: 1;
+    margin-right: 15px;
+    outline: none;
 }
 
 #scrollTopBtn {
-    display: block;
-    position: fixed;
-    bottom: 100px;
-    right: 15px;
-    z-index: 1001;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
 
     background-color: transparent;
     border: none;
     padding: 0;
-    box-shadow: none;
     cursor: pointer;
-
-    /* 버튼 전체의 크기 */
-    width: 40px;
-    height: 40px;
 }
 
 #scrollTopBtn img {
