@@ -8,7 +8,46 @@
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css" />
 </head>
 
+<body><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css" />
+</head>
+
 <body>
+
+    {% if image %}
+    <img class="art-image" src="{{ url_for('static', filename=image) }}">
+    {% endif %}
+
+    {% if audio %}
+    <audio class="sound" controls>
+        <source src="{{ url_for('static', filename=audio) }}" type="audio/mp3">
+    </audio>
+    {% endif %}
+
+    <button id="scrollTopBtn" title="맨 위로 가기">
+        <img src="{{ url_for('static', filename='scroll_top.png') }}" alt="위로 가기">
+        <script>
+            let topButton = document.getElementById("scrollTopBtn");
+
+
+
+            topButton.onclick = function () {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' 
+                });
+            };
+        </script>
+
+</body>
+
+</html>
     {% if audio %}
         <audio class="sound" controls>
             <source src="{{ url_for('static', filename=audio) }}" type="audio/mp3">
