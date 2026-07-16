@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: 'Testfont';
-     /*background-color: rgb(255, 255, 255);*/ 
+    /* background-color: #000000; */
     margin: 0;
 
     padding: 0px;
@@ -35,7 +35,7 @@ body::before {
     height: 100vh;
 
     /*배경(까만부분) 이미지*/
-    background-image: url('type_1.png');
+    background-image: url('');
 
     background-size: 100% 100%;
     background-position: center;
@@ -43,45 +43,14 @@ body::before {
     z-index: -1;
 }
 
-.container {
-    background-color: white;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-
-    flex-grow: 1;
-
-    padding: 20px;
-    padding-bottom: 50px;
-    box-sizing: border-box;
-    border: 3px solid gray;
-
-    /*설명글(하얀부분) 이미지*/
-    background-image: url('nameQR.png');
-
-    background-size: 100% 100%;
-    background-position: center;
-}
-
-.title-text {
-    text-align: center;
-    text-shadow: 2px 2px 1px gray;
-}
-
-.explan-text {
-    font-size: 20px;
-    line-height: 1.6;
-    color: #333333;
-}
-
 .sound {
     position: fixed;
     z-index: 1000;
-    bottom: 30px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    max-width: 540px;
+    /* max-width: 540px; */
     display: block;
 
     background: black;
@@ -89,14 +58,34 @@ body::before {
     border-radius: 30px;
 }
 
-.image-box {
+.art-image {
+    display: block;
     width: 100%;
-    margin-bottom: 25px;
-    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
-.art-image {
+#scrollTopBtn {
+    display: block;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    z-index: 1001;
+
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+
+    /* 버튼 전체의 크기 */
+    width: 40px;
+    height: 40px;
+}
+
+#scrollTopBtn img {
     width: 100%;
-    /* max-height: 400px;*/
+    height: 100%;
     object-fit: contain;
 }
