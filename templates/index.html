@@ -14,19 +14,22 @@
     <img class="art-image" src="{{ url_for('static', filename=image) }}" draggable="false">
     {% endif %}
 
+    {% if audio %}
     <div class="bottom-bar">
 
-        {% if audio %}
+        <img class="art-audioguide" src="/static/text_audioguide.png" draggable="false">
+
         <audio class="sound" controls>
             <source src="{{ url_for('static', filename=audio) }}" type="audio/mp3">
         </audio>
-        {% endif %}
 
-        <button id="scrollTopBtn" title="맨 위로 가기">
-            <img src="{{ url_for('static', filename='scroll_top.png') }}" alt="위로 가기">
-        </button>
+
+        <!--<button id="scrollTopBtn" title="맨 위로 가기">
+        <img src="{{ url_for('static', filename='scroll_top.png') }}" alt="위로 가기">
+    </button>-->
 
     </div>
+    {% endif %}
 
     <script>
         let topButton = document.getElementById("scrollTopBtn");
