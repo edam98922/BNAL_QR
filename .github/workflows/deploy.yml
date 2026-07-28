@@ -21,7 +21,7 @@ jobs:
           project: edam98922/bnal-qr
           stage: main
           yaml: |
-            name: bnal-qr
+            name: bnal-qr2
             app: python@3.9
             options:
               env:
