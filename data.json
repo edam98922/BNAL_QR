@@ -1,26 +1,104 @@
 {
     "1": {
-        "title": "첫 번째 화면",
+        "title": "1",
         "explanation": "",
-        "audio_file": "1-1_black_lungs.mp3",
-        "image_file": "scroll_back.png"
+        "audio_file": "Audio_QR_1.mp3",
+        "image_file": "QR_1.png"
     },
     "2": {
-        "title": "두 번째 작품",
+        "title": "2",
         "explanation": "",
-        "audio_file": "",
-        "image_file": ""
+        "audio_file": "Audio_QR_2.mp3",
+        "image_file": "QR_2.png"
     },
     "3": {
-        "title": "세 번째 작품",
+        "title": "3",
         "explanation": "",
         "audio_file": "",
-        "image_file": "text.jpg"
+        "image_file": "QR_3.png"
     },
     "4": {
-        "title": "네 번째 작품",
-        "explanation": "이것은 네 번째 작품의 설명입니다. ",
-        "audio_file": "coffee.mp3",
-        "image_file": "testImg.png"
+        "title": "4",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_4.png"
+    },
+    "5": {
+        "title": "5",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_5.png"
+    },
+    "6": {
+        "title": "6",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_6.png"
+    },
+    "7": {
+        "title": "7",
+        "explanation": "",
+        "audio_file": "Audio_QR_7.mp3",
+        "image_file": "QR_7.png"
+    },
+    "8": {
+        "title": "8",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_8.png"
+    },
+    "9": {
+        "title": "9",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_9.png"
+    },
+    "10": {
+        "title": "10",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_10.png"
+    },
+    "11": {
+        "title": "11",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_11.png"
+    },
+    "12": {
+        "title": "12",
+        "explanation": "",
+        "audio_file": "Audio_QR_12.mp3",
+        "image_file": "QR_12.png"
+    },
+    "13": {
+        "title": "13",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_13.png"
+    },
+    "14": {
+        "title": "14",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_14.png"
+    },
+    "15": {
+        "title": "15",
+        "explanation": "",
+        "audio_file": "",
+        "image_file": "QR_15.png"
+    },
+    "16": {
+        "title": "16",
+        "explanation": "",
+        "audio_file": "Audio_QR_16.mp3",
+        "image_file": "QR_16.png"
+    },
+    "17": {
+        "title": "17",
+        "explanation": "",
+        "audio_file": "Audio_QR_17.mp3",
+        "image_file": "QR_17.png"
     }
 }
